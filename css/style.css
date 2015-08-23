@@ -1,0 +1,97 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: #221d46;
+  font-weight: 400;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+.finger-size {
+  min-width: 48px;
+  min-height: 48px;
+}
+
+.text-muted {
+  color: #bcbbbb;
+}
+
+.text-thin {
+  font-weight: 200;
+}
+
+.title-text {
+  font-family: 'Indie Flower', cursive;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-logo {
+  margin: 20px 0 0;
+}
+
+.title-hr {
+  margin: 5px 0 0;
+  border: 2px inset;
+}
+
+.title-section {
+  margin: 0 0 0 10px;
+}
+
+.limit-800w {
+  max-width: 800px;
+}
+
+.project-image {
+  max-height: 200px;
+  max-width : 300px;
+}
+
+.social-margin {
+  margin: 35px 0 25px;
+}
+
+.collapsed-only {
+  visibility: hidden;
+}
+
+.nav-margin {
+  margin: 8px 0 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .title-text {
+    text-align: center;
+  }
+
+  .title-logo {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .collapsed-only {
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .title-super {
+    font-size: 40px;
+  }
+}

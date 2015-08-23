@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+
+  <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/zocial.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-2">
+        <img class="img-responsive title-logo" src="img/selfie.jpg" alt="A picture of me" />
+      </div>
+      <div class="col-md-10 text-right text-uppercase title-text">
+        <h1 class="title-super">Chris Brocklebank</h1>
+        <h4>Software Engineer in Progress</h4>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle finger-size" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <p class="navbar-brand collapsed-only nav-margin">Projects</p>
+        </div>
+        <div class="collapse navbar-collapse collapsed" id="navbar">
+          <ul class="nav nav-justified nav-margin">
+            <li><a href="#">Intro to HTML/CSS</a></li>
+            <li><a href="#">Responsive Design</a></li>
+            <li><a href="#">Responsive Images</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col-md-12">
+        <figure class="limit-800w center-block">
+          <img class="img-responsive" src="img/figure-367946.svg" alt="Technology Cartoon">
+        </figure>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-muted">Featured Work</h2>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4 col-sm-6">
+        <img class="project-image img-responsive center-block" src="img/website-647013_640.jpg" srcset="img/website-647013_640.jpg 2x, img/website-647013_640-small.jpg 1x" data-toggle="modal" data-target="#project1" alt="HTML code">
+        <h3 class="text-uppercase">Intro to HTML/CSS</h3>
+        <p><a href="#">Link to project</a></p>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img class="project-image img-responsive center-block" src="img/web-845168_640.jpg" srcset="img/web-845168_640.jpg 2x, img/web-845168_640-small.jpg 1x" data-toggle="modal" data-target="#project2" alt="Website design">
+        <h3 class="text-uppercase">Responsive Design</h3>
+        <p><a href="#">Link to project</a></p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img class="project-image img-responsive center-block" src="img/phone-804792.svg" data-toggle="modal" data-target="#project3" alt="A phone">
+        <h3 class="text-uppercase">Responsive Images</h3>
+        <p><a href="#">Link to project</a></p>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center social-margin">
+          <a href="http://www.linkedin.com/in/cbrocklebank" class="zocial linkedin">Find me on LinkedIn</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="text-center">
+    Images from <a href="http://www.pixabay.com">Pixabay</a>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel1">Intro to HTML and CSS</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive project-image" src="img/website-647013_640.jpg" srcset="img/website-647013_640.jpg 2x, img/website-647013_640-small.jpg 1x" alt="Project 1 thumbnail">
+          This was my first project to in this class. I learned a lot about HTML and CSS.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default finger-size" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel2">Responsive Web Design</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive project-image" src="img/web-845168_640.jpg" srcset="img/web-845168_640.jpg 2x, img/web-845168_640-small.jpg 1x" alt="Project 2 thumbnail">
+          This was my second project in this class. I learned a lot about responsive design fundamentals and how to harness bootstrap.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default finger-size" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel3">Responsive Images</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive project-image" src="img/phone-804792.svg" alt="Project 3 thumbnail">
+          This was my third project in this class. I learned a lot about responsive images, and that sometimes less is more.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default finger-size" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
